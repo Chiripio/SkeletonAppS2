@@ -1,1 +1,32 @@
-/* Estilos de login */
+ion-title {
+  text-align: center;
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.form-content {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+ion-item {
+  --background: #fff;
+  --color: #000;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+ion-button {
+  width: 100%;
+}
