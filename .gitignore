@@ -1,6 +1,6 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
-
+# ======================
+# ARCHIVOS TEMPORALES
+# ======================
 *~
 *.sw[mnpcod]
 .tmp
@@ -8,43 +8,58 @@
 *.tmp.*
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
+Thumbs.db
+.DS_Store
 
+# ======================
+# LOGS
+# ======================
 *.log
 log.txt
 
-
+# ======================
+# COVERAGE / REPORTES
+# ======================
 /.sourcemaps
 /.versions
 /coverage
+/testem.log
+/libpeerconnection.log
 
-# Ionic
-/.ionic
-/www
-/platforms
-/plugins
-
-# Compiled output
+# ======================
+# OUTPUT COMPILADO
+# ======================
 /dist
 /tmp
 /out-tsc
 /bazel-out
+/www
 
-# Node
+# ======================
+# IONIC / PLUGINS
+# ======================
+/.ionic
+/platforms
+/plugins
+
+# ======================
+# NODE / NPM
+# ======================
 /node_modules
 npm-debug.log
 yarn-error.log
 
-# IDEs and editors
+# ======================
+# EDITORES E IDEs
+# ======================
 .idea/
 .project
 .classpath
-.c9/
-*.launch
 .settings/
+*.launch
 *.sublime-project
 *.sublime-workspace
-
-# Visual Studio Code
+.c9/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -52,19 +67,17 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
-
-# Miscellaneous
+# ======================
+# ANGULAR / NX
+# ======================
 /.angular
-/.angular/cache
+.angular/cache
 .sass-cache/
-/.nx
+.nx
 /.nx/cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
 /typings
 
-# System files
-.DS_Store
-Thumbs.db
+# ======================
+# BLOQUEO DE CONEXIONES
+# ======================
+/connect.lock
