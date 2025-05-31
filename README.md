@@ -1,57 +1,38 @@
-# Proyecto: SkeletonAPP
+# SkeletonAppS2 - Semana 2
 
-**Asignatura:** Programación de Aplicaciones Móviles (PGY4221)  
-**Experiencia:** N°1 - Framework Híbrido  
-**Semana:** 1  
-**Estudiante:** Eduardo Guerrero Soto  
-**Repositorio GitHub:** [https://github.com/Chiripio/SkeletonApp](https://github.com/Chiripio/SkeletonApp)
+Este proyecto corresponde a la actividad de la **Semana 2** del ramo **Programación de Aplicaciones Móviles (PGY4221)**, desarrollada con **Ionic + Angular Material**.
 
----
+## 🧩 Funcionalidades implementadas
 
-## ✅ Descripción
+- Login con validación de campos y alertas visuales.
+- Verificación de usuario existente.
+- Paso de datos entre vistas (`usuario` se muestra en Home).
+- Animación visual del título "Home".
+- Campo de fecha de nacimiento con selector de fecha moderno (`MatDatepicker`).
+- Validación visual de formulario.
+- Botón "Limpiar" que reinicia el formulario con animación.
+- Botón "Mostrar" que despliega los datos ingresados.
+- Uso de Angular Material integrado con diseño de Ionic.
 
-Aplicación móvil desarrollada en Ionic + Angular como parte de la actividad formativa “Herramientas de desarrollo”. Esta primera versión incluye:
+## 📁 Estructura del proyecto
 
-- Inicio del proyecto con `ionic start SkeletonAPP blank --type=angular`
-- Página `Login` generada con CLI
-- Estructura visual centrada y estilizada para usuario y contraseña
-- Repositorio Git configurado y publicado
+- `/src` - Contiene todos los componentes, páginas y recursos.
+- `angular.json` - Configuración principal del proyecto.
+- `.gitignore` - Limpieza de archivos innecesarios para evaluación.
+- `package.json` - Dependencias utilizadas.
 
----
+## 🚫 Archivos excluidos del ZIP
 
-## 🛠️ Tecnologías
+- `node_modules/`
+- `www/`
+- `.git/`
+- `dist/`
 
-- Ionic CLI
-- Angular
-- Node.js
-- Git & GitHub
-- Visual Studio Code
+## 🔗 Repositorio
 
----
+[https://github.com/Chiripio/SkeletonAppS2](https://github.com/Chiripio/SkeletonAppS2)
 
-## 📷 Evidencia
+## 👤 Autor
 
-La app fue ejecutada con el comando:
-
-```bash
-ionic serve --lab
-```
-
-Y se visualizó correctamente en el navegador simulando dispositivos Android/iOS.
-
----
-
-## 📦 Instrucciones para correr el proyecto
-
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Chiripio/SkeletonApp.git
-   ```
-2. Instalar dependencias:
-   ```bash
-   npm install
-   ```
-3. Ejecutar:
-   ```bash
-   ionic serve --lab
-   ```
+**Eduardo Guerrero Soto**  
+Analista Programador - Duoc UC
